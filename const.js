@@ -8,3 +8,10 @@ function f(){
 }
 f()
 console.log(a)
+//object throught reassign the variable
+const obj={
+    prop1:1,
+    prop2:3
+}
+obj.prop1=2
+console.log(obj)
