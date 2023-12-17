@@ -1,4 +1,4 @@
-//Parameteries Function
+//return type Parameteries Function
 function myFun1(a,b){
     return a+b
 }
