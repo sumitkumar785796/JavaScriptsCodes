@@ -15,3 +15,15 @@ const obj={
 }
 obj.prop1=2
 console.log(obj)
+/*TypeError: Assignment to constant variable.
+
+obj={
+    prop1:1,
+    prop2:3
+}
+
+*/
+const stud={}
+stud.name='sumit'
+stud.age=21
+console.log(stud)
