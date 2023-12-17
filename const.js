@@ -3,7 +3,7 @@ const a=5
 // a=9//assignment to constant variable is not possible
 console.log(a)
 function f(){
-    const a=6
+    const a = 6
     console.log(a)
 }
 f()

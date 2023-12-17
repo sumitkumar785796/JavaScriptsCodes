@@ -4,7 +4,6 @@
 x = 10;
 y = "Hello";
 z = true;
-
 // They are automatically declared when first used
 console.log(x); // Output: 10
 console.log(y); // Output: Hello

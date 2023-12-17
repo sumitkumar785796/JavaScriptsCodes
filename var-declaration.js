@@ -7,6 +7,7 @@ var myVariable="hello,world!"
 }
 console.log(myVariable)
 console.log(a)
+
 //scope of function
 function myFun(){
     var myVar=15

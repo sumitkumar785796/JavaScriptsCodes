@@ -4,6 +4,7 @@
 }
 // console.log(a)//error are generate : a is not defined
 //re-assign
+
 let a=4;
 a=6;
 console.log(a)
