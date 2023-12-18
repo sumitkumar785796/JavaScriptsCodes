@@ -8,19 +8,27 @@ The syntax for an IIFE involves wrapping the function in parentheses and then im
 (function() {
     // Your code here
     console.log("This is an Immediately Invoked Function Expressions(IIFE)!");
-})
-();
+})();
 // pass argument IIFE
 (function(x, y) {
     var result = x + y;
     console.log(result);
-})
-(10, 20); // Outputs: 30
+})(10, 20); // Outputs: 30
+//Return type 
+const result=(function(x,y){
+    return x+y;
+})(3,3)
+console.log(result)
 //Arrow Function
 (() => {
     console.log("This is an IIFE with an arrow function!");
-})
-();
+})();
+//Arrow Function pass argument
+const res=((a,b)=>{
+    return a+b;
+})(5,6)
+console.log(res)
+
 /*
 IIFE is commonly used in scenarios where you want to execute a block of code 
 immediately without the need for creating a named function. Keep in mind that 
