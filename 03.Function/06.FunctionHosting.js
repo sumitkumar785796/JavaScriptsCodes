@@ -9,7 +9,8 @@ function myFun1(a,b){
 }
 /* 
 Function expressions are not hoisted in the same way as function declarations. 
-You need to declare the variable before you can use the function.*/
+You need to declare the variable before you can use the function.
+*/
 console.log(add(4,5))//TypeError: add is not a function
 var add = function(a, b) {
     return a + b;
