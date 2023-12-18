@@ -2,4 +2,5 @@
 function myFun1(a,b){
     return a+b
 }
-console.log(myFun1(5,6))//calling function
+const result=myFun1(5,6)
+console.log(result)//calling function
