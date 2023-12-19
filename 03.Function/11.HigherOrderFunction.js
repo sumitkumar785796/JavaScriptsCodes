@@ -10,7 +10,7 @@ function multiplier(factor) {
 // Create a new function with factor = 2
 let double = multiplier(2);
 
-// Call the new function with an argument (e.g., 5)
+// Call the new function with an argument
 let result = double(5);
 
 // Output the result
