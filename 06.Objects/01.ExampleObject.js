@@ -11,8 +11,10 @@ const stud={
     fullname:function(){
         return this.fname +" "+ this.lname;
     },
+    regStatus:false,
 }
 console.log(stud.fname)
 console.log(stud.fullname())
 console.log(stud.skill[0])
 console.log(stud.address.distict)
+console.log(stud.regStatus)
