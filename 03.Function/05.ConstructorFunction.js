@@ -4,7 +4,7 @@ function CreateStudentRecord(name, age) {
     this.age = age;
     this.show = function() {
       console.log(`My name is ${this.name} and I'm ${this.age} years old.`);
-    };
+    }
   }
   
   // Creating instances of the 'CreateStudentRecord' object
