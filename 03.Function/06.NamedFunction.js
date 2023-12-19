@@ -4,5 +4,5 @@ the function inside the function itself, which can be useful for recursion or de
 */
 const add = function sum(a, b) {
     return a + b;
-};  
+}
 console.log(add(4,4))
