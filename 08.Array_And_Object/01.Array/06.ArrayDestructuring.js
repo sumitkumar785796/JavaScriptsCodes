@@ -31,3 +31,27 @@ let x = 5, y = 10;
 console.log('before swap')
 console.log(x); // Output: 10
 console.log(y); // Output: 5
+// function value
+const dest = ([ar,br,cr=0])=>{
+    console.log('function value')
+    console.log(ar)
+    console.log(br)
+    console.log(cr)
+}
+dest([1,2])
+
+const user=()=> {
+    return ['sumit',21]
+}
+const [fname,age]=user()
+console.log(fname)
+console.log(age)
+//nested destructuring
+const arrr=['sumit kumar',21,['jehabad','bihar',804408]]
+const [fullname,year,[...res]]=arrr
+console.log(fullname)
+console.log(year)
+console.log(res)
+// console.log(city)
+// console.log(state)
+// console.log(pincode)
