@@ -22,14 +22,3 @@ user.age=22
 user.address['distict']='jbad'
 console.log('Modify value:',user.age)
 console.log('Modify value:',user.address.distict)
-//Iterate for...in loop
-console.log('Iterate value')
-for (let key in user) {
-    console.log(key + ': ' + user[key]);
-}
-// Using for...in loop to iterate over object properties
-for (const key in user) {
-    if (user.hasOwnProperty(key)) {
-        console.log(key + ':', user[key]);
-    }
-}
