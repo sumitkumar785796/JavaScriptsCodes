@@ -9,7 +9,7 @@ const user={
         pincode:804408,
     },
     fullname:function(){
-        return this.fname +" "+ this.lname;
+        return fname +" "+ lname;
     },
     regStatus:false,
 }
