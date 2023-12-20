@@ -10,5 +10,5 @@ console.log(sym.description);
 /*
 The string inside the parentheses is the description you provided when creating the Symbol. Note that this description doesn't affect the uniqueness or identity of the Symbol; it's just a human-readable label.
 
-If you want to access the description programmatically, you can use the Symbol.description property:
+If you want to access the description programmatically, you can use the Symbol.description property
 */
