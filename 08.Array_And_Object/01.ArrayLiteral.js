@@ -26,4 +26,5 @@ const array=[
     undefined,
     true,
 ]
-console.log
+console.log(array)
+console.log(array.length)
