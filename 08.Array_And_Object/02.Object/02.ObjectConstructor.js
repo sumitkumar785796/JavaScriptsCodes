@@ -6,7 +6,7 @@ user.fullnames=function(){
     console.log(this.firstname+" "+this.lastname)
 }
 user.address={
-    distict:'Jehanabad',
+    district:'Jehanabad',
     state:'Bihar',
     pincode:804408,
 }
@@ -19,6 +19,6 @@ console.log(user.address)
 user.fullnames()
 //modify object
 user.age=22
-user.address['distict']='jbad'
+user.address['district']='jbad'
 console.log('Modify value:',user.age)
-console.log('Modify value:',user.address.distict)
+console.log('Modify value:',user.address.district)

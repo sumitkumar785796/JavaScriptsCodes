@@ -4,7 +4,7 @@ let person={
     age:21,
     skill:['nodejs','javascript'],  
     address:{
-        distict:'Jehanabad',
+        district:'Jehanabad',
         state:'Bihar',
         pincode:804408,
     },

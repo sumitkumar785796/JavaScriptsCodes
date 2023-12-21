@@ -4,7 +4,7 @@ const stud={
     age:21,
     skill:['nodejs','javascript'],  
     address:{
-        distict:'Jehanabad',
+        district:'Jehanabad',
         state:'Bihar',
         pincode:804408,
     },
@@ -18,7 +18,7 @@ console.log(stud)
 console.log(stud.fname)
 console.log(stud.fullname())
 console.log(stud.skill[0])
-console.log(stud.address.distict)
+console.log(stud.address.district)
 console.log(stud.regStatus)
 //modify object
 stud.age=22
@@ -34,7 +34,7 @@ user.fullnames=function(){
     console.log(this.firstname+" "+this.lastname)
 }
 user.address={
-    distict:'Jehanabad',
+    district:'Jehanabad',
     state:'Bihar',
     pincode:804408,
 }
