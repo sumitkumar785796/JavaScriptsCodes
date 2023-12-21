@@ -1,3 +1,5 @@
+![image](https://github.com/sumitkumar785796/JavaScriptsCodes/assets/76932212/d5fc9b0b-397a-499e-a82b-47eb12126913)
+
 JavaScript is a high-level, versatile programming language that is primarily used for front-end web development. It was created by Netscape and first released in 1995. Here's a brief history of JavaScript:
 
 1. Birth of JavaScript (1995): JavaScript was created by Brendan Eich while he was working at Netscape Communications Corporation. The language was originally named Mocha and later changed to LiveScript before finally settling on JavaScript. The goal was to create a scripting language for web browsers that could enhance the interactivity and user experience of web pages.
