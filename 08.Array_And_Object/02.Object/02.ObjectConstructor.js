@@ -10,6 +10,7 @@ user.address={
     state:'Bihar',
     pincode:804408,
 }
+
 //accessing object
 console.log(user)
 console.log(user.firstname)
@@ -17,6 +18,7 @@ console.log(user.lastname)
 console.log(user.age)
 console.log(user.address)
 user.fullnames()
+
 //modify object
 user.age=22
 user.address['district']='jbad'

@@ -17,7 +17,6 @@ const user = {
   
   // Destructuring assignment
   const { fname, lname, age, skill, address: { city, state, country, pincode }, fullname, regStatus } = user;
-  
   console.log(fullname()); 
   console.log(age);
   console.log(skill);

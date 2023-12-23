@@ -6,7 +6,7 @@ const users = [
   ];
   
   const [{ uid, fname, gender }, { uid: uid1, fname: fname1, gender: gender1 }, { uid: uid2, fname: fname2, gender: gender2 },{ uid: uid3, fname: fname3, gender: gender3 }] = users;
-  
+
   console.log(uid + " " + fname + " " + gender);
   console.log(uid1 + " " + fname1 + " " + gender1);
   console.log(uid2 + " " + fname2 + " " + gender2);

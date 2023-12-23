@@ -13,11 +13,13 @@ const user={
     },
     regStatus:false,
 }
+
 //Iterate for...in loop
 console.log('Iterate value')
 for (const key in user) {
     console.log(key + ': ' + user[key]);
 }
+
 // Using for...in loop to iterate over object properties
 for (const key in user) {
     if (user.hasOwnProperty(key)) {

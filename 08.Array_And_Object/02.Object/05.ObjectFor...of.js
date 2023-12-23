@@ -13,6 +13,7 @@ const user={
     },
     regStatus:false,
 }
+
 //Iterate for...in loop
 console.log('Iterate value')
 for (const key of Object.keys(user)) {

@@ -26,6 +26,7 @@ stud['skill']=['javascript','react','node js','mongodb','express js']
 console.log('change age:',stud.age)
 console.log('change skil:',stud.skill)
 // another example
+
 const user={}
 user.firstname='sumit'
 user.lastname='kumar'
@@ -38,6 +39,7 @@ user.address={
     state:'Bihar',
     pincode:804408,
 }
+
 //accessing object
 console.log(user)
 console.log(user.firstname)

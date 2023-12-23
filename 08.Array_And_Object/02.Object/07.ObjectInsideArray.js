@@ -21,7 +21,6 @@ const users=[
     }
 ]
 // console.log(users)
-
 for (const user of users) {
     console.log(`UID: ${user.uid}, Name: ${user.fname}, Gender: ${user.gender}`);
 }
