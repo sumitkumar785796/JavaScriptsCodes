@@ -1,3 +1,4 @@
+//how to create iterator (for...of loop)
 const makeIterator=(start=0,end=Infinity,step=1)=>{
     let nextStart=start;
     let iterationCount=0;
