@@ -6,17 +6,20 @@ const a2 = [
     'aman kumar'
 ]
 console.log(a2)
+
 //insert element one by one
 const a3=[]
 a3[0]=1
 a3[1]=3
 a3[2]=4
 console.log(a3)
+
 //accesing array elements
 console.log(a3[0])
 //modify the elements in a3[0]
 a3[0]=0
 console.log(a3)
+
 //mixed array elements
 const array=[
     1,
