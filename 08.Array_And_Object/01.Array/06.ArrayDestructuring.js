@@ -31,6 +31,14 @@ let x = 5, y = 10;
 console.log('before swap')
 console.log(x); // Output: 10
 console.log(y); // Output: 5
+// swap array list number
+const num = [100, 200];
+let [i, j] = num;
+
+[i, j] = [j, i];
+
+console.log(i); // Output: 200
+console.log(j); // Output: 100
 // function value
 const dest = ([ar,br,cr=0])=>{
     console.log('function value')
@@ -52,6 +60,3 @@ const [fullname,year,[...res]]=arrr
 console.log(fullname)
 console.log(year)
 console.log(res)
-// console.log(city)
-// console.log(state)
-// console.log(pincode)
